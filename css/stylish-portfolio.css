@@ -175,17 +175,39 @@ hr.small {
   padding: 50px 0;
 }
 
+.parallax { 
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Services */
 
-.services {
-  padding: 50px 0;
+
+.service-image {
+  height: 300px;
 }
 
-.service-item {
-  margin-bottom: 30px;
+.route-improvements {
+  background-image: url(../img/mission-lanes.jpg)
 }
 
+.new-routes {
+  background-image: url(../img/muni-map-1.png)
+}
+
+.crowding {
+  background-image: url(../img/crowded-bart.jpg)
+}
+
+.disruptions {
+  background-image: url(../img/muni-5-traffic-1.jpg)
+}
 
 /* Callout */
 
@@ -200,16 +222,14 @@ hr.small {
   -o-background-size: cover;
   background-size: cover;
 }
-
-
 /* Portfolio */
 
 .portfolio {
   padding: 50px 0;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.container {
+  padding: 40px;
 }
 
 .img-portfolio {
